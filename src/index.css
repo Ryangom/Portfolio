@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100;200;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.text_primary {
+  @apply text-4xl mb-16 font-bold underline underline-offset-[15px];
+}
+
+.text_secondary {
+  @apply text-[1.3rem] leading-[1.5em] tracking-[0.05rem] font-light;
+}
+
+
+body {
+  background-color: #0F1D2A;
+  color: white;
+  font-family: 'inter', sans-serif;
+}
